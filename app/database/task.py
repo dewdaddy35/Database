@@ -59,7 +59,7 @@ def update_by_id(task_data, task_id):
     statement = """
         UPDATE task SET
         name = ?,
-        summary = ?
+        summary = ?,
         description = ?,
         is_done = ?
         WHERE id = ?
